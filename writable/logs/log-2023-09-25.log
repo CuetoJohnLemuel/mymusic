@@ -1,0 +1,109 @@
+CRITICAL - 2023-09-25 00:38:48 --> Undefined variable $MusicName
+in APPPATH\Controllers\Playlist.php on line 63.
+ 1 APPPATH\Controllers\Playlist.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MusicName', 'D:\\laragon\\www\\music\\app\\Controllers\\Playlist.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-25 00:41:27 --> Undefined variable $MusicName
+in APPPATH\Controllers\Playlist.php on line 63.
+ 1 APPPATH\Controllers\Playlist.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MusicName', 'D:\\laragon\\www\\music\\app\\Controllers\\Playlist.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+ERROR - 2023-09-25 00:42:23 --> mysqli_sql_exception: Column 'audio_file' cannot be null in D:\laragon\www\music\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\music\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 D:\laragon\www\music\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 D:\laragon\www\music\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 D:\laragon\www\music\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 D:\laragon\www\music\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\music\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\music\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www\music\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\laragon\www\music\app\Controllers\Playlist.php(67): CodeIgniter\BaseModel->save(Array)
+#9 D:\laragon\www\music\system\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+#10 D:\laragon\www\music\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+#11 D:\laragon\www\music\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www\music\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\laragon\www\music\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-25 00:42:23 --> Column 'audio_file' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tracks` (`audio_file`) VALUES (:audio_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Playlist.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-25 03:11:19 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Playlist.php(63): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', '1695611479_199fdec05ed691ced40b.m4a')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-25 08:17:32 --> Undefined variable $MusicName
+in APPPATH\Controllers\Playlist.php on line 63.
+ 1 APPPATH\Controllers\Playlist.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MusicName', 'D:\\laragon\\www\\music\\app\\Controllers\\Playlist.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-25 08:17:56 --> Could not move file "phpFECB.tmp" to "uploads/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpFECB.tmp', 'uploads/', '')
+ 2 APPPATH\Controllers\Playlist.php(63): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'D:\\wamp\\tmp\\phpFECB.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-25 22:45:33 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::setConfig()
+in APPPATH\Controllers\Playlist.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+ERROR - 2023-09-25 23:34:56 --> mysqli_sql_exception: Column 'audio_file' cannot be null in D:\laragon\www\music\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\music\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tr...', 0)
+#1 D:\laragon\www\music\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 D:\laragon\www\music\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 D:\laragon\www\music\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 D:\laragon\www\music\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\music\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\music\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\laragon\www\music\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\laragon\www\music\app\Controllers\Playlist.php(65): CodeIgniter\BaseModel->save(Array)
+#9 D:\laragon\www\music\system\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+#10 D:\laragon\www\music\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+#11 D:\laragon\www\music\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www\music\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\laragon\www\music\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-25 23:34:56 --> Column 'audio_file' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tracks` (`audio_file`) VALUES (:audio_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Playlist.php(65): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')

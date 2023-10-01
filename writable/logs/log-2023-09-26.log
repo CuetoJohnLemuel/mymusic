@@ -1,0 +1,82 @@
+CRITICAL - 2023-09-26 00:31:46 --> Undefined property: App\Controllers\Playlist::$input
+in APPPATH\Controllers\Playlist.php on line 54.
+ 1 APPPATH\Controllers\Playlist.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Playlist::$input', 'D:\\laragon\\www\\music\\app\\Controllers\\Playlist.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 00:32:24 --> Undefined property: App\Controllers\Playlist::$input
+in APPPATH\Controllers\Playlist.php on line 54.
+ 1 APPPATH\Controllers\Playlist.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Playlist::$input', 'D:\\laragon\\www\\music\\app\\Controllers\\Playlist.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 00:48:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Playlist.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 01:08:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Playlist.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 21:27:07 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Playlist.php(100): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/audio/', '1695763627_9829cc3267ab1c676cf4.m4a')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 22:22:59 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Playlist.php(100): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/audio/', '1695766979_678779805b24707a787e.m4a')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 22:32:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Playlist.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 22:34:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Playlist.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->uploadaudio()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 22:42:51 --> Invalid file: "phpin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('phpin.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('phpin', [], true)
+ 3 APPPATH\Controllers\Playlist.php(25): view('phpin')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Playlist->viewplayss()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Playlist))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
+CRITICAL - 2023-09-26 23:33:47 --> syntax error, unexpected token ")", expecting variable
+in APPPATH\Controllers\Playlist.php on line 101.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\music\\app\\Controllers\\Playlist.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Playlist')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Playlist')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Playlist', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\music\\public\\index.php')
